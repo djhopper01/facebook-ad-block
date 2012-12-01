@@ -1,0 +1,32 @@
+{
+  "name": "The Facebook Project",
+  "description": "a bunch of tweaks to make Facebook better for you",
+  "version": "0.10",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "The Facebook Project"
+  },
+  "options_page": "options.html",
+  "background": {
+    "scripts": [
+      "js/init.js",
+      "js/vendor/jquery-1.8.1.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.facebook.com/*"],
+      "css": ["css/content_scripts/main.css"],
+      "js": [""]
+    }
+  ],
+  "content_security_policy": "default-src 'none'; style-src 'self' 'unsafe-inline'; connect-src *; img-src *; script-src 'self';",
+  "permissions": [
+    "unlimitedStorage",
+    "notifications",
+    "tabs",
+    "geolocation",
+    "chrome://favicon/*"
+  ]
+}

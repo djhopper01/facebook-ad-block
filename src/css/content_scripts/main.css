@@ -1,0 +1,16 @@
+#rightCol {
+  display: none;
+}
+
+#leftColContainer {
+  display: none !important;
+}
+
+#contentCol {
+  border-left: none !important;
+  margin-left: 82px !important;
+}
+
+.uiStreamRedesign .uiStreamMessage .messageBody {
+  font-size: 16px !important;
+}
