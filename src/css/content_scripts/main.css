@@ -1,4 +1,4 @@
-#rightCol {
+/*#rightCol {
   display: none;
 }
 
@@ -13,4 +13,25 @@
 
 .uiStreamRedesign .uiStreamMessage .messageBody {
   font-size: 16px !important;
+}*/
+
+#leftCol {
+  padding-top: 0 !important;
+}
+
+#rightCol {
+  padding-top: 0 !important;
+  margin-top: -5px !important;
+}
+
+.rightColumnWrapper {
+  margin-top: 24px !important;
+}
+
+.fbp-center {
+  text-align: center;
+}
+
+.fbp-toggle {
+  padding: 12px;
 }
