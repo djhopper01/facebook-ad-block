@@ -23,7 +23,7 @@
         "js/content_scripts/main.js",
         "js/content_scripts/init.js"
       ],
-      "run_at": "document_idle"
+      "run_at": "document_start"
     }
   ],
   "web_accessible_resources": [
